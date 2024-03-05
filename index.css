@@ -1,7 +1,9 @@
+
 body{
     display: flex;
     flex-direction: column;
     margin:0px;
+   width:100vw
   
     
     
@@ -18,24 +20,25 @@ nav{
     height:10vh;
     
     
+    
 }
 .menu{
-    height:20px;
-    width:20px
+    height:10px;
+    width:10px
 }
 .content{
     display: flex;
     align-items: center;
     background-color: peachpuff;
     justify-content: space-between;
-    height:30vh;
+    height:40vh;
    
    
 }
 .foodImage{
      
     width:50vw;
-    height:30vh
+    height:40vh
 }
 .loremData{
     display: flex;
@@ -48,13 +51,13 @@ nav{
 }
 
 h1{
-    font-size:10px;
+    font-size:8px;
     font-family: sans-serif;
     font-stretch:extra-expanded;
 }
 
 p{
-    font-size:8px;
+    font-size:4px;
     font-family: sans-serif
 }
 
@@ -63,26 +66,26 @@ button{
     border:0px;
     align-self:flex-start;
     color:white;
-    height:15px;
-    width:60px;
+    height:12px;
+    width:30px;
     font-family: sans-serif;
-    font-size:6px;
+    font-size:4px;
 }
 
 .secondSection{
-   
+    margin-top:10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: peachpuff;
-    height: 60vh;
+    height: 50vh;
     
 }
 
 .threeImages{
     display: flex;
     width:40vw;
-    height:25vh;
+    height:35vh;
     justify-content:space-between
     
 }
@@ -95,43 +98,140 @@ button{
 }
 .singleImage{
     width:18vw;
-    height:12vh
+    height:17vh
 }
 
 .mainImage{
-    height:25vh;
+    height:35vh;
     width:18vw
 }
 
 .arrow{
-    width:20px
+    width:10px
 }
 
 .subContainer{
     background-color: rgb(243, 92, 92);
-    width:30vw;
-    padding:20px;
-    margin:10px;
-    height:14vh
+    width:40vw;
+    padding-left: 10px;
+    margin-left:10px;
+    height:25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     
 }
 .arrowSection{
     display: flex;
     align-items: center;
+    
 }
 
 .cardH{
-    font-size:9px;
+    font-size:8px;
     font-family: sans-serif;
    
 
 }
 
 .cardP{
-    font-size:10px;
+    font-size:7px;
     font-family: sans-serif
 }
 
+
+@media screen and (min-width:300px){
+
+
+    .content{
+        
+        height:50vh;
+       
+       
+    }
+    .foodImage{
+         
+        width:50vw;
+        height:50vh
+    }
+    .menu{
+        height:15px;
+        width:15px
+    }
+
+
+h1{
+    font-size:10px;
+    
+}
+
+p{
+    font-size:8px;
+    
+}
+
+button{
+   
+    height:15px;
+    width:60px;
+    
+    font-size:6px;
+}
+
+.secondSection{
+  
+    height: 50vh;
+    
+}
+
+.threeImages{
+    
+    width:40vw;
+    height:35vh;
+    
+    
+}
+
+
+.singleImage{
+    width:18vw;
+    height:17vh
+}
+
+.mainImage{
+    height:35vh;
+    width:18vw
+}
+
+.arrow{
+    width:15px
+}
+
+.subContainer{
+    
+    width:40vw;
+    padding-left: 10px;
+    margin-left:10px;
+    height:30vh;
+    
+    
+}
+
+
+.cardH{
+    font-size:15px;
+    
+   
+
+}
+
+.cardP{
+    font-size:10px;
+    
+}
+
+}
 @media screen and (min-width:400px){
 
 
@@ -150,13 +250,13 @@ button{
 
     .secondSection{
         
-        height: 70vh;
+        height: 60vh;
         
     }
     .threeImages{
         
         width:50vw;
-        height:35vh;
+        height:50vh;
         
         
     }
@@ -164,17 +264,17 @@ button{
    
     .singleImage{
         width:24vw;
-        height:17vh
+        height:24vh
     }
     
     .mainImage{
-        height:35vh;
+        height:50vh;
         width:25vw
     }
     
     .subContainer{
-        width:30vw;
-        height:15vh
+        width:40vw;
+        height:35vh
         
     }
     h1{
@@ -183,24 +283,24 @@ button{
     }
     
     p{
-        font-size:12px;
+        font-size:9px;
         
     }
     
     .cardH{
-        font-size:12px;
+        font-size:15px;
         
        
     
     }
     
     .cardP{
-        font-size:10px;
+        font-size:12px;
         
     }
     button{
-        height:30px;
-        width:80px;
+        height:20px;
+        width:60px;
         font-size:10px
     }
 }
@@ -221,13 +321,13 @@ button{
 
     .secondSection{
         
-        height: 80vh;
+        height: 100vh;
         
     }
     .threeImages{
         
         width:50vw;
-        height:60vh;
+        height:70vh;
         
         
     }
@@ -235,11 +335,11 @@ button{
    
     .singleImage{
         width:22vw;
-        height:29vh
+        height:34vh
     }
     
     .mainImage{
-        height:60vh;
+        height:70vh;
         width:26vw
     }
     
@@ -258,7 +358,7 @@ h1{
 }
 
 p{
-    font-size:20px;
+    font-size:15px;
     
 }
 
@@ -270,18 +370,18 @@ p{
 }
 
 .cardP{
-    font-size:18px;
+    font-size:15px;
     
 }
 
 .subContainer{
     width:40vw;
-    height:30vh
+    height:45vh
     
 }
 
 button{
-   
+    width:100px;
     font-size:15px
 }
 
