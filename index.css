@@ -70,7 +70,7 @@ button{
 }
 
 .secondSection{
-    margin-top:20px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,14 +137,14 @@ button{
 
     .content{
         
-        height: 90vh;
+        height: 60vh;
        
        
     }
     .foodImage{
          
         width:60vw;
-        height:90vh
+        height:60vh
     }
 
 
